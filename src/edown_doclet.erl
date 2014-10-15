@@ -420,7 +420,7 @@ package(P, Dir, FileMap, Env, Opts) ->
 
 
 packages_frame(Ps) ->
-    [{h2, [{class, "indextitle"}], ["Packages"]},
+    [{h4, [{class, "indextitle"}], ["Packages"]},
      {table, [{width, "100%"}, {border, 0},
 	      {summary, "list of packages"}],
       lists:concat(
@@ -431,7 +431,7 @@ packages_frame(Ps) ->
 
 
 modules_frame(Ms) ->
-    [{h2, [{class, "indextitle"}], ["Modules"]},
+    [{h4, [{class, "indextitle"}], ["Modules"]},
      {table, [{width, "100%"}, {border, 0},
 	      {summary, "list of modules"}],
       lists:concat(
